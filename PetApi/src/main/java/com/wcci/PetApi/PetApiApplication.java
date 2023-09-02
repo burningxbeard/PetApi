@@ -26,6 +26,9 @@ public class PetApiApplication {
 
 			VirtualPet steve = new VirtualPet("Steve", "Shi tzu", 100, 100, 0);
 			virtualPetRepository.save(steve);
+
+			VirtualPet john5 = new VirtualPet("Johnny Five", "Beagle", 10, 10, 100);
+			virtualPetRepository.save(john5);
 };
 	}
 }
